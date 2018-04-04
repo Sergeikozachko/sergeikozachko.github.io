@@ -1,0 +1,248 @@
+ @font-face {
+    font-family: Acrom-bold; /* Имя шрифта */
+    src: url(../fonts/acrom800.otf); /* Путь к файлу со шрифтом */
+ }
+
+@font-face {
+    font-family: Acrom;
+	src: url(../fonts/acrom400.otf);
+
+}
+
+*{
+	margin: 0; /*Reset css  убираем белую полосу по краям*/
+}
+body{
+	font-family: Acrom;
+
+}
+
+
+.wraper{
+	width: 1024px;
+	margin: 0 auto;/* авто віравнивание по горизонтале */
+}
+
+
+header{
+	
+	min-height: 450px; /*минимальная высота*/
+	background : url('../images/header_bg.png'); /*ФОН*/
+	background-size: cover;  /* ростянем изображение равномерно по дисплею*/
+}
+
+.top-line{
+	height: 85px;
+	background:rgba(13,15,18,0.5);
+	padding: 40px;
+}
+
+.phone{
+	color: white;
+	font-size: 23px;
+	font-family:Acrom;
+	float:right;
+}
+
+.callback{
+	justify-content: flex-end;
+	font-family: Acrom;
+	font-size: 9px;
+	color: white;
+	background:none;
+	border: 2px solid #0683b4;
+	border-radius: 11px;
+	padding:5px 10px;
+	float:right;
+	margin-top: 30px;
+	margin-left:20px;
+	
+
+
+
+}
+.logo{
+	margin-top:20px;
+}
+
+.main{
+	font-family: Acrom;
+	text-align: center;/* ровнять текст по центру*/
+     padding:90px 0px 130px 0px;
+	
+	
+	
+}
+
+.wraper2{
+	background: none;
+}
+h1{
+ 	color: #fff;
+	font-size: 37px;
+	font-family: Acrom-bold;
+   margin-bottom: 40px;
+
+}
+h2{
+	color:  #0683b4;
+	font-size: 18;
+	margin-bottom: 80px;
+
+}
+
+.register{
+	color:#fff;
+	font-family: Acrom-bold;
+	font-size:10px;
+	border-radius: 10px;
+	background: #d26d2d;
+	padding:15px 10px;
+	border: none;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+.callback2{
+	float: none;
+	color: #fff;
+	margin-top:30px;
+	margin-right: 32px;
+	
+}
+
+.callback2 img{
+	width: 16px;
+}
+
+.callback2 span{
+	position: relative ;
+	top: -4px;
+
+}
+
+.divider{
+	height: 80px;
+	background: #d36e2d;
+}
+.program{
+	padding: 70px 0px;
+	background: #fff;
+	height: 550px;
+}
+.right{
+	width: 500px;
+	float: right;
+
+}
+h3{
+	color: black;
+	font-size: 42px;
+	font-family: acrom-bold;
+	margin-bottom: 45px;
+
+
+}
+
+ul li{
+	color: #5fa8e8;
+	font-size: 24px;
+	font-family: Acrom-bold;
+	margin-bottom:15px;
+	text-transform: uppercase;
+	
+
+}
+
+ .comment-img {
+	border-radius: 100%;
+	position: relative;
+	left: 140px;
+	top: 45px;
+	margin-left: 60px;
+
+
+}
+
+
+ .comment {
+	background: url(../images/bg_2.png);
+	background-size:cover;
+	padding: 80px 0 120px 0;
+	
+	
+	
+}
+
+
+ .comment h3 {
+	color: rgb(95, 167, 231);
+	font-size: 35px;
+	font-family: Acrom-bold;
+	position: relative;
+	margin-right:180px;
+	
+
+}
+
+
+ .comment p {
+	color:#fff;
+	font-size: 19px;
+	position: relative;
+	margin-right: 180px;
+	
+
+}
+
+.clear {
+	clear: both;
+}
+
+footer{
+	background: url(../images/bg_3.png);
+	background-size: cover;
+	padding: 100px 0;
+	color: #fff;
+
+
+
+}
+
+.logo-footer {
+	margin-left: 100px;
+}
+
+.col-3{
+	width: 33.333%;
+	float: left;
+	
+
+}
+
+
+.callback3
+{
+	justify-content: flex-end;
+	font-family: Acrom;
+	font-size: 9px;
+	color: white;
+	background:none;
+	border: 2px solid #0683b4;
+	border-radius: 6px;
+	padding:5px 10px;
+	margin-left: 40px; 
+	width: 200px;
+	
+	
+}
+
+
+footer label {
+	display: inline-block;
+    width: 200px;
+}
+
+footer p{
+	margin-bottom: 20px;
+}
